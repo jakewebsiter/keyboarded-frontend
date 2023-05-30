@@ -5,7 +5,10 @@ export default function Navbar({ children }) {
     <>
       <nav>
         <NavLink to="/">Home</NavLink>
-        <NavLink to="/bob">Bob</NavLink>
+        <div className="main-links">
+          <NavLink to="/bob">Bob</NavLink>
+          <NavLink to="/yeah">Yeah</NavLink>
+        </div>
       </nav>
       {children}
     </>
